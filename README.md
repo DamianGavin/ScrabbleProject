@@ -1,4 +1,4 @@
-# DMT
-4thYearSoftwareDevProject
+# ScrabbleProject
+4th Year Software Dev Project
 
-Scrabble
+
