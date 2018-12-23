@@ -7,7 +7,7 @@ import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
-public class Runner {
+public class ApplicationRunner {
     public static void main(String[] args) {
 
         MongoClient mongoClient = new MongoClient();
@@ -38,7 +38,7 @@ public class Runner {
             }
 
         } catch (Exception e) {
-            System.out.println("User " + (testCal.count() -1) + " already added");
+            System.out.println("User " + (testCal.countDocuments() - 1) + " already added");
         }
 
         System.out.println();
